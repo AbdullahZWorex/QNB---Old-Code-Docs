@@ -1,0 +1,7 @@
+spring:
+  ldap:
+    urls: ldap://ad.company.com:389
+    base: dc=company,dc=com
+    username: CN=ldap-reader,OU=Users,DC=company,DC=com
+    password: Abdullah@2002
+    userDnPatterns: CN={0},OU=Users
